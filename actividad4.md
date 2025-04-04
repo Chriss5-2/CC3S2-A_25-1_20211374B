@@ -34,7 +34,7 @@ height="1.329734251968504in"}
 
 b.  Añade y confirma estos cambios en la rama feature/advanced-feature:
 
-> ![](./media/media/image21.png){width="4.942708880139983in"
+> ![](image21.webp){width="4.942708880139983in"
 > height="0.8867311898512686in"}
 
 3.  Simular un desarrollo en paralelo en la rama main:
