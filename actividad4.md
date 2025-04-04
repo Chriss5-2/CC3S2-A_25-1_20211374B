@@ -100,7 +100,7 @@ c.  Añade y confirma los cambios en la rama main
 
     a.  Al usar git rebase -i HEAD\~3 aparece la siguiente consola
 
-> ![](./media/media/image32.png){width="4.21875in"
+> ![](image32.webp){width="4.21875in"
 > height="0.6469925634295713in"}
 
 b.  Utilizamos squash para combinar los 3 últimos commits
