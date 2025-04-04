@@ -21,8 +21,7 @@ del archivo sin afectar la rama principal
 
 1.  Crear una nueva rama para una característica:
 
-![](image2.webp){width="3.6927088801399823in"
-height="1.329734251968504in"}
+![](image2.webp)
 
 2.  Modificar archivos en la nueva rama:
 
@@ -150,7 +149,7 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
 
 3.  Fusionar los cambios en la rama principal
 
-> ![](image36.){width="4.557292213473316in"
+> ![](image36.webo){width="4.557292213473316in"
 > height="3.5101859142607172in"}
 
 4.  Explorar el historial después de la fusión
@@ -314,5 +313,4 @@ b.  Para recuperar los cambios, lo que hacemos es git stash pop
     a.  Usando git log revisamos el historial de commits y vemos que
         todo se ha aplicado correctamente
 
-> ![](image40.webp){width="4.963542213473316in"
-> height="3.0341918197725284in"}
+> ![](image40.webp)
