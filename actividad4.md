@@ -21,76 +21,76 @@ del archivo sin afectar la rama principal
 
 1.  Crear una nueva rama para una característica:
 
-![](image2.webp)
+![](Imagenes/image2.webp)
 
 2.  Modificar archivos en la nueva rama:
 
     a.  Editar el archivo main.py con una función adicional: main.py de
         la rama feature/advanced-feature
 
-> ![](image18.webp)
+> ![](Imagenes/image18.webp)
 
 b.  Añade y confirma estos cambios en la rama feature/advanced-feature:
 
-> ![](image21.webp)
+> ![](Imagenes/image21.webp)
 
 3.  Simular un desarrollo en paralelo en la rama main:
 
     a.  Cambiar la nueva ruta a la rama main
 
-> ![](image38.webp)
+> ![](Imagenes/image38.webp)
 
 b.  Edita el archivo main.py de forma diferente: main.py de la rama main
 
-> ![](image30.webp)
+> ![](Imagenes/image30.webp)
 
 c.  Añade y confirma los cambios en la rama main
 
-> ![](image15.webp)
+> ![](Imagenes/image15.webp)
 
 4.  Intenta fusionar la rama feature/advanced-feature en main:
     Generación de error
 
-> ![](image41.webp)
+> ![](Imagenes/image41.webp)
 
 5.  Resolver el conflicto de fusión
 
-> ![](image29.webp)
+> ![](Imagenes/image29.webp)
 
 6.  Eliminar la rama fusionada
 
-> ![](image20.webp)
+> ![](Imagenes/image20.webp)
 
 - Ejercicio 2: Exploración y manipulación del historial de commits
 
 1.  Ver el historial detallado de commits (git log -p)
 
-> ![](image22.webp)
+> ![](Imagenes/image22.webp)
 
 2.  Filtrar commits por autor (git log \--author="Nombre")
 
-> ![](image10.webp)
+> ![](Imagenes/image10.webp)
 
 3.  Revertir un commit (git revert HEAD)
 
-> ![](image33.webp)
+> ![](Imagenes/image33.webp)
 >
-> ![](image9.webp)
+> ![](Imagenes/image9.webp)
 >
 > luego git revert HEAD, me salió en la consola para confirmar la
 > reversión, y luego de poner ESC y :wq me salió lo siguiente
 >
-> ![](image11.webp)
+> ![](Imagenes/image11.webp)
 
 4.  Rebase Interactivo
 
     a.  Al usar git rebase -i HEAD\~3 aparece la siguiente consola
 
-> ![](image32.webp)
+> ![](Imagenes/image32.webp)
 
 b.  Utilizamos squash para combinar los 3 últimos commits
 
-> ![](image17.webp)
+> ![](Imagenes/image17.webp)
 
 c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
     errores modificamos el archivo que da error, lo añadimos, le damos
@@ -100,7 +100,7 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
 
 5.  Visualización gráfica del historial:
 
-> ![](image39.webp)
+> ![](Imagenes/image39.webp)
 
 - Ejercicio 3: Creación y gestión de ramas desde commits específicos
 
@@ -108,18 +108,18 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
 
     a.  Creando rama desde el commit f09f2cd
 
-> ![](image34.webp)
+> ![](Imagenes/image34.webp)
 >
 > El hash del commit sobre el que cree la rama, en la imagen de arriba
 > se puede notar que es antes de añadir el main.py, por lo tanto si me
 > ubico a esa nueva rama, el sistema me avisa que no existe el main.py
 >
-> ![](image19.webp)
+> ![](Imagenes/image19.webp)
 >
 > podemos notar que el main.py está tachado indicando que no existe en
 > esa rama, pero si vuelvo a la rama main, notamos que si existe
 >
-> ![](image27.webp)
+> ![](Imagenes/image27.webp)
 >
 > Para continuar, eliminamos la nueva rama y la creamos en la dirección
 > del último commit hecho, resolviendo distintos problemas, el último
@@ -130,7 +130,7 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
 
 3.  Fusionar los cambios en la rama principal
 
-> ![](image36.webo)
+> ![](Imagenes/image36.webo)
 
 4.  Explorar el historial después de la fusión
 
@@ -138,7 +138,7 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
         historial y podemos ver la generación de una nueva rama y su
         unión generando solo una
 
-> ![](image23.webp)
+> ![](Imagenes/image23.webp)
 
 5.  Eliminar la rama bugfix/rollback-feature
 
@@ -146,7 +146,7 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
 
 1.  Hacer cambios en el archivo main.py y hacer commit
 
-> ![](image31.webp)
+> ![](Imagenes/image31.webp)
 
 2.  Usar git reset para deshacer el commit:
 
@@ -156,7 +156,7 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
         tendríamos que volver al commit con hash f576797 para verificar
         que hemos deshecho el commit de la primera parte
 
-> ![](image43.webp)
+> ![](Imagenes/image43.webp)
 
 3.  Usar git restore para deshacer cambios no confirmados:
 
@@ -165,53 +165,53 @@ c.  Ponemos ESC y :wq y Enter para aceptar el rebase, luego si hay
         un add, la modificación está sin confirmar, no está en 'stages'
         osea listo para el commit
 
-> ![](image45.webp)
+> ![](Imagenes/image45.webp)
 
 b.  Aplicamos git restore y notamos que deshace el cambio no confirmado,
     y al usar git status vemos que no hay modificación pendiente
 
-> ![](image12.webp)
+> ![](Imagenes/image12.webp)
 
 - Ejercicio 5: Trabajo colaborativo y manejo de Pull Requests
 
 1.  Crear un nuevo repositorio remoto:
 
-> ![](image44.webp)
+> ![](Imagenes/image44.webp)
 
 2.  Crear una nueva rama para desarrollo de una característica
 
-> ![](image25.webp)
+> ![](Imagenes/image25.webp)
 
 3.  Realizar cambios y enviar la rama al repositorio remoto
 
-> ![](image37.webp)
+> ![](Imagenes/image37.webp)
 >
 > y al verificar en el repositorio de github
 >
-> ![](image8.webp)
+> ![](Imagenes/image8.webp)
 
 4.  Abrir un Pull Request
 
-> ![](image1.webp)
+> ![](Imagenes/image1.webp)
 
 5.  Revisar y fusionar el Pull Request
 
-> ![](image42.webp)
+> ![](Imagenes/image42.webp)
 >
 > Aceptamos el Merge pull request y el merge se hará valido
 >
-> ![](image35.webp)
+> ![](Imagenes/image35.webp)
 
 6.  Eliminar la rama remota y local
 
 Para eliminarlo por consola, primero tenemos que hacer un pull para
 actualizar los cambios hechos en github
 
-![](image4.webp)
+![](Imagenes/image4.webp)
 
 Luego procedemos a eliminar la rama
 
-![](image6.webp)
+![](Imagenes/image6.webp)
 
 Y al verificar las ramas en github solo nos aparecerá la rama main
 
@@ -223,7 +223,7 @@ git stash: Guardar temporalmente cambios no confirmados
 
 1.  Hacer cambios en main.py y confirmarlos
 
-> ![](image13.webp)
+> ![](Imagenes/image13.webp)
 
 2.  Crear una nueva rama y aplicar el commit específico
 
@@ -232,35 +232,35 @@ git stash: Guardar temporalmente cambios no confirmados
         la rama en el commit anterior al de la parte 1, porque si
         hicieramos commit en esa parte, la rama ya tendría el commit
 
-> ![](image7.webp)
+> ![](Imagenes/image7.webp)
 >
-> ![](image5.webp)
+> ![](Imagenes/image5.webp)
 
 b.  Ahora para hacer el commit especifico, tomaremos el hash del ultimo
     commit de la rama main, que es cda2651
 
-> ![](image26.webp)
+> ![](Imagenes/image26.webp)
 
 3.  Guardar temporalmente cambios no confirmados
 
-> ![](image16.webp)
+> ![](Imagenes/image16.webp)
 >
-> ![](image28.webp)
+> ![](Imagenes/image28.webp)
 >
 > Al aplicar git stash vemos que se guarda y ya no aparece en el main.py
 >
-> ![](image14.webp)
+> ![](Imagenes/image14.webp)
 
 4.  Aplicar los cambios guardados
 
     a.  Con git stash list podemos ver la lista de stash y el primero
         que aparece es la actualización que habíamos hecho en el main.py
 
-> ![](image3.wep)
+> ![](Imagenes/image3.wep)
 
 b.  Para recuperar los cambios, lo que hacemos es git stash pop
 
-> ![](image24.webp)
+> ![](Imagenes/image24.webp)
 >
 > También lo elimina de la lista y se guarda normal
 
@@ -270,4 +270,4 @@ b.  Para recuperar los cambios, lo que hacemos es git stash pop
     a.  Usando git log revisamos el historial de commits y vemos que
         todo se ha aplicado correctamente
 
-> ![](image40.webp)
+> ![](Imagenes/image40.webp)
