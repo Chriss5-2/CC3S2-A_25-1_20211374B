@@ -271,7 +271,7 @@ Las pruebas automáticas en el pipeline de CI/CD aseguran la calidad y estabilid
  
 > Presentar el flujo en un diagrama que incluya cada paso desde el commit hasta la visualización de métricas en tiempo real.
 
-![Flujo](ImagenFlujo.webp)
+![Flujo](Imagenes/ImgA2/ImagenFlujo.webp)
 
 
 
