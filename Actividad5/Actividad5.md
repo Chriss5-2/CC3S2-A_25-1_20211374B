@@ -6,15 +6,15 @@ Estudiante: Luna Jaramillo, Christian Giovanni Código: 20211374B
 
 > Realizar la prueba de merge fast forward con dos ramas independientes
 
-![](Imagenes/ImgA5/image56.png)
+![](Img5/image56.png)
 
-![](Imagenes/ImgA5/image48.png)
+![](Img5/image48.png)
 
-![](Imagenes/ImgA5/image22.png)
+![](Img5/image22.png)
 
 > Verificar el historial:
 
-![](Imagenes/ImgA5/image49.png)
+![](Img5/image49.png)
 
 Pregunta: ¿En qué situaciones recomendarías evitar el uso de git merge
 \--ff? Reflexiona sobre las desventajas de este método
@@ -31,11 +31,11 @@ Pregunta: ¿En qué situaciones recomendarías evitar el uso de git merge
 >
 > Creación de la carpeta:
 
-![](Imagenes/ImgA5/image10.png)
+![](Img5/image10.png)
 
 > Se modifica la primera rama que es la rama main
 
-![](Imagenes/ImgA5/image5.png)
+![](Img5/image5.png)
 
 > Se crea una rama modificando el archivo ya creado pero a la vez se
 > modifica el mismo archivo en la rama main, donde ambas modificaciones
@@ -46,7 +46,7 @@ Pregunta: ¿En qué situaciones recomendarías evitar el uso de git merge
 > modificación y de la fusión se eliminó de mi consola dando solo el
 > resultado de la fusión y luego procedí a verificar el historial del
 
-![](Imagenes/ImgA5/image8.png)
+![](Img5/image8.png)
 
 > En el gráfico, la parte roja indica el momento que hubo el conflicto y
 > donde se abrió el editor para modificar el archivo
@@ -59,30 +59,30 @@ depender excesivamente de commits de fusión?
 
 > Crear ramas y fusionarlas con merge squash
 
-![](Imagenes/ImgA5/image7.png)
+![](Img5/image7.png)
 
 > Modificación en la rama main
 
-![](Imagenes/ImgA5/image30.png)
+![](Img5/image30.png)
 
 > Creación de una rama y modificación del archivo
 
-![](Imagenes/ImgA5/image55.png)
+![](Img5/image55.png)
 
 > Generación de otro commit en la rama add-basic-files para mostrar el
 > squash
 
-![](Imagenes/ImgA5/image20.png)
+![](Img5/image20.png)
 
 > Se vuelve a la rama main y se hace la fusión squash
 
-![](Imagenes/ImgA5/image17.png)
+![](Img5/image17.png)
 
 > Y para confirmar los cambios, se agrega y se hace un commit
 >
 > Verificamos el historial de commits
 
-![](Imagenes/ImgA5/image53.png)
+![](Img5/image53.png)
 
 > Notamos que los dos commits hechos en la rama add-basic-files se unen
 > en un solo commit en la rama main tal como en la imagen donde la rama
@@ -97,43 +97,43 @@ estándar?
 
 1.  Inicializa un nuevo repositorio
 
-![](Imagenes/ImgA5/image65.png)
+![](Img5/image65.png)
 
 2.  Crea un archivo index.html y realiza un commit en la rama main
 
-![](Imagenes/ImgA5/image63.png)
+![](Img5/image63.png)
 
 3.  Crea y cambia a una nueva rama feature-update
 
-![](Imagenes/ImgA5/image60.png)
+![](Img5/image60.png)
 
 4.  Edita el archivo y realiza un commit en la rama feature-update
 
-![](Imagenes/ImgA5/image39.png)
+![](Img5/image39.png)
 
 5.  Regresa a la rama main y realiza una edición en el mismo archivo
 
-![](Imagenes/ImgA5/image14.png)
+![](Img5/image14.png)
 
 6.  Fusiona la rama feature-update con --no-ff y observa el conflicto
 
-![](Imagenes/ImgA5/image34.png)
+![](Img5/image34.png)
 
 7.  Git detectará un conflicto en index.html. Abre el archivo y resuelve
     el conflicto. Elimina las líneas de conflicto generadas por Git
     (\<\<\<\<\<\<\<, =======, \>\>\>\>\>\>\>) y crea la versión final
     del archivo con ambos cambios:
 
-![](Imagenes/ImgA5/image28.png)
+![](Img5/image28.png)
 
 8.  Agrega el archivo corregido y completa la fusión:
 
-![](Imagenes/ImgA5/image3.png)
+![](Img5/image3.png)
 
 9.  Verifica el historial para confirmar la fusión y el commit de
     resolución de conflicto:
 
-![](Imagenes/ImgA5/image11.png)
+![](Img5/image11.png)
 
 Preguntas:
 
@@ -148,46 +148,46 @@ desarrollos colaborativos?
 
 1.  Crea un nuevo repositorio y realiza varios commits en dos ramas:
 
-![](Imagenes/ImgA5/image36.png)
+![](Img5/image36.png)
 
-![](Imagenes/ImgA5/image12.png)
+![](Img5/image12.png)
 
-![](Imagenes/ImgA5/image4.png)
+![](Img5/image4.png)
 
-![](Imagenes/ImgA5/image52.png)
+![](Img5/image52.png)
 
 2.  Fusiona feature-1 usando fast-forward:
 
-![](Imagenes/ImgA5/image35.png)
+![](Img5/image35.png)
 
 3.  Fusiona feature-2 usando non-fast-forward:
 
-![](Imagenes/ImgA5/image18.png)
+![](Img5/image18.png)
 
 4.  Realiza una nueva rama feature-3 con múltiples commits y fusionarla
     con squash:
 
-![](Imagenes/ImgA5/image16.png)
+![](Img5/image16.png)
 
-![](Imagenes/ImgA5/image27.png)
+![](Img5/image27.png)
 
 5.  Compara el historial de Git:
 
     a.  Historial Fast-forward:
 
-![](Imagenes/ImgA5/image51.png)
+![](Img5/image51.png)
 
-![](Imagenes/ImgA5/image23.png)
+![](Img5/image23.png)
 
 b.  Historial Non-fast-forward:
 
-![](Imagenes/ImgA5/image57.png)
+![](Img5/image57.png)
 
 c.  Historial con Squash:
 
-![](Imagenes/ImgA5/image46.png)
+![](Img5/image46.png)
 
-![](Imagenes/ImgA5/image37.png)
+![](Img5/image37.png)
 
 Preguntas:
 
@@ -207,20 +207,20 @@ Pasos:
 
 1.  Inicializa un nuevo repositorio y realiza dos commits en main:
 
-![](Imagenes/ImgA5/image43.png)
+![](Img5/image43.png)
 
-![](Imagenes/ImgA5/image25.png)
+![](Img5/image25.png)
 
 2.  Crea una nueva rama auto-merge y realiza otro commit en file.txt:
 
-![](Imagenes/ImgA5/image19.png)
+![](Img5/image19.png)
 
 3.  Vuelve a main y realiza cambios no conflictivos en otra parte del
     archivo:
 
-![](Imagenes/ImgA5/image13.png)
+![](Img5/image13.png)
 
-![](Imagenes/ImgA5/image24.png)
+![](Img5/image24.png)
 
 4.  Fusiona la rama auto-merge con main:
 
@@ -230,7 +230,7 @@ Pasos:
 
 > Aparece un editor pero lo dejamos igual
 
-![](Imagenes/ImgA5/image61.png)
+![](Img5/image61.png)
 
 6.  Revertir la fusión: Si decides que la fusión fue un error, puedes
     revertirla:
@@ -239,13 +239,13 @@ Pasos:
 >
 > Aparece un editor pero lo dejamos igual
 
-![](Imagenes/ImgA5/image50.png)
+![](Img5/image50.png)
 
-![](Imagenes/ImgA5/image54.png)
+![](Img5/image54.png)
 
 7.  Verifica el historial:
 
-![](Imagenes/ImgA5/image59.png)
+![](Img5/image59.png)
 
 Preguntas:
 
@@ -265,15 +265,15 @@ Pasos:
 
 1.  Clona un repositorio remoto desde GitHub o crea uno nuevo:
 
-![](Imagenes/ImgA5/image31.png)
+![](Img5/image31.png)
 
 2.  Crea una nueva rama colaboración y haz algunos cambios:
 
-![](Imagenes/ImgA5/image42.png)
+![](Img5/image42.png)
 
 3.  Empuja los cambios a la rama remota:
 
-![](Imagenes/ImgA5/image64.png)
+![](Img5/image64.png)
 
 4.  Simula una fusión desde la rama colaboración en la rama main de otro
     colaborador. (Puedes usar la interfaz de GitHub para crear un Pull
@@ -305,69 +305,69 @@ Configura un proyecto simulado:
 
 - Inicializamos un repositorio para crear la rama feature 1
 
-![](Imagenes/ImgA5/image47.png)
+![](Img5/image47.png)
 
 - Creamos un archivo README en la rama main y le hacemos un commit
 
-![](Imagenes/ImgA5/image58.png)
+![](Img5/image58.png)
 
-![](Imagenes/ImgA5/image2.png)
+![](Img5/image2.png)
 
 - Creando una rama feature1 y modificamos el archivo README.md
 
-![](Imagenes/ImgA5/image40.png)
+![](Img5/image40.png)
 
 - Volemos a la rama main y realizamos un git merge \--ff feature1
 
-![](Imagenes/ImgA5/image29.png)
+![](Img5/image29.png)
 
 ### Merge \--no-ff:
 
 - Inicializamos un repositorio y creamos un archivo README.md en la rama
   main para modificarla y hacerle un commit en la misma rama
 
-![](Imagenes/ImgA5/image41.png)
+![](Img5/image41.png)
 
-![](Imagenes/ImgA5/image32.png)
+![](Img5/image32.png)
 
 - Creamos una rama feature2, nos dirigimos a esta y modificamos el
   archivo README.md junto con su commit y volvemos a la rama main
 
-![](Imagenes/ImgA5/image45.png)
+![](Img5/image45.png)
 
 - En la rama main ejecutamos git merge \--no-ff feature2 y nos aparecerá
   un editor donde nos pedirá explicar el mensaje si queremos, solo lo
   omitimos, salimos del editor y la fusión se habrá efectuado
 
-![](Imagenes/ImgA5/image9.png)
+![](Img5/image9.png)
 
-![](Imagenes/ImgA5/image15.png)
+![](Img5/image15.png)
 
-![](Imagenes/ImgA5/image1.png)
+![](Img5/image1.png)
 
 ### Merge squash:
 
 - Inicializamos un repositorio y creamos un archivo README.md en la rama
   main para modificarla y hacerle un commit en la misma rama
 
-![](Imagenes/ImgA5/image44.png)
-![](Imagenes/ImgA5/image62.png)
+![](Img5/image44.png)
+![](Img5/image62.png)
 
 - Creamos la rama feature3 y le realizamos dos commits al archivo
   README.md desde esa rama, al finalizar volvemos a la rama main
 
-![](Imagenes/ImgA5/image21.png)
+![](Img5/image21.png)
 
 - En la rama main usamos merge \--squash feature3 y se hace un git
   commit al final
 
-![](Imagenes/ImgA5/image38.png)
+![](Img5/image38.png)
 
 Analiza el historial de commits:
 
 - Merge Fast Forwards
 
-![](Imagenes/ImgA5/image33.png)
+![](Img5/image33.png)
 
 En historial de commits es lineal y notamos que el commit helecho en la
 rama feature1, se une de manera lineal con la rama main debido a que la
@@ -377,7 +377,7 @@ fusión
 
 - Merge No Fast Forwards
 
-![](Imagenes/ImgA5/image6.png)
+![](Img5/image6.png)
 
 Podemos apreciar que se ve que no es linea, donde la rama feature2
 vuelve a unirse a la rama main y genera un nuevo commit de union,
@@ -388,7 +388,7 @@ apreciar el arbol que generó este tipo de fusión
 
 - Merge squash
 
-![](Imagenes/ImgA5/image26.png)
+![](Img5/image26.png)
 
 En el historial de commits de merge squash, notamos que los dos commits
 que se hicieron en feature3, se agrega en la rama main de manera lineal
